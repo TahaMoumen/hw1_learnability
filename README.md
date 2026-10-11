@@ -1,9 +1,11 @@
 # HW1 — Introduction and Learnability
 Statistical and Machine Learning — M2, Université de Haute-Alsace
 
-Illustration expérimentale de la différence entre les cadres PAC et PAC Agnostique
-via un ERM sur des classifieurs à seuil, implémenté sans bibliothèque de ML.
+Experimental illustration of the difference between the PAC and Agnostic PAC learning frameworks,
+using an ERM algorithm over threshold classifiers, implemented with NumPy only (no ML library).
 
-## Lancer
+## Run
+```bash
 pip install -r requirements.txt
-et lancer hw1_learnability.ipynb
+```
+Then open and run `hw1_learnability.ipynb` (Jupyter or VS Code).
